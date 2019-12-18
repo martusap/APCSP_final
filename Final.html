@@ -1,103 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>OrganizeIT</title>
-    <link rel="stylesheet" href="final.css">
+   <title>OrganizeIT</title>
+    <link rel="stylesheet" href="final.css"> 
 </head>
-
+ 
 <body>
-    <h1 id="cs">Organize your time for homework!</h1>
-    <p id="clase">Please type in the class you have homework in or work you have to get done.
-        Then let us know how much time each assignment should take.</p>
-        
-
-    <form id="demo">
-        <p>What class would you like to get done first?</p>
-        <label for="class">First Class</label>
-        <input id="course" type="text" name = "class" placeholder="Ex; English">
-        <br>
-        <p>How much time will this take you?</p>
-        <label for="time">Time in minutes</label>
-        <input id="tiempo" type="number" name = "time" placeholder="30">
-        <br>
-        <p>What class would you like to get done next?</p>
-        <label for="class">Second Class</label>
-        <input id="course1" type="text" name = "class" placeholder="Ex; Math">
-        <br>
-        <p>How much time will this take you?</p>
-        <label for="time">Time in minutes</label>
-        <input id="tiempo1" type="number" name = "time" placeholder="10">
-        <br>
-        <p>What class would you like to get done next?</p>
-        <label for="class">Third Class</label>
-        <input id="cource2" type="text" name = "class" placeholder="Ex; Spanish">
-        <br>
-        <p>How much time will this take you?</p>
-        <label for="time">Time in minutes</label>
-        <input id="tiempo2" type="number" name = "time" placeholder="15">
-        <br>
-        <p>What class would you like to get done next?</p>
-        <label for="class">Fourth Class</label>
-        <input id="cource3" type="text" name = "class" placeholder="Ex; Science">
-        <br>
-        <p>How much time will this take you?</p>
-        <label for="time">Time in minutes</lalel>
-        <input id="tiempo3" type="number" name = "time" placeholder="45">
-        <br>
-        <br>
-        <lable for="break">Whould you like a break inbetween?</lable> <br>
-            <input id="yes" type="radio" name="break" value="yes"> Yes <br>
-            <input id="no" type="radio" name="break" value="no"> No <br> 
-    </form>
-
-    <button id="go" type='button'>GO</button>
-
+    
+   <h1 id="cs">Organize your time for homework!</h1>
+   <p id="clase">Please type in the class you have homework in or work you have to get done.
+       Then let us know how much time each assignment should take.</p>
+    <p id="tie"></p>  
+ 
+   <form id="demo">
+       <p>What class would you like to get done first?</p>
+       <label for="class">First Class</label>
+       <input id="course" type="text" name = "class" placeholder="Ex; English">
+       <br>
+       <p>How much time will this take you?</p>
+       <label for="time">Time in minutes</label>
+       <input id="tiempo" type="number" name = "time" placeholder="30">
+       <br>
+       <p>What class would you like to get done next?</p>
+       <label for="class">Second Class</label>
+       <input id="course1" type="text" name = "class" placeholder="Ex; Math">
+       <br>
+       <p>How much time will this take you?</p>
+       <label for="time">Time in minutes</label>
+       <input id="tiempo1" type="number" name = "time" placeholder="10">
+       <br>
+       <p>What class would you like to get done next?</p>
+       <label for="class">Third Class</label>
+       <input id="cource2" type="text" name = "class" placeholder="Ex; Spanish">
+       <br>
+       <p>How much time will this take you?</p>
+       <label for="time">Time in minutes</label>
+       <input id="tiempo2" type="number" name = "time" placeholder="15">
+       <br>
+       <p>What class would you like to get done next?</p>
+       <label for="class">Fourth Class</label>
+       <input id="cource3" type="text" name = "class" placeholder="Ex; Science">
+       <br>
+       <p>How much time will this take you?</p>
+       <label for="time">Time in minutes</lalel>
+       <input id="tiempo3" type="number" name = "time" placeholder="45">
+       <br>
+       <br>
+   </form>
+ <br>
+   <button id="go" type='button'>GO</button>
+ 
 <script src="final.js"></script>
-
+ 
 </body>
-
+ 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- // formData.get(name) – get the value of the field with the given name,
-
-// We can either create new FormData(form) from an HTML form, or create a 
-  object without a form at all, and then append fields with methods:  
-
-// formData.append(name, value)
-// formData.append(name, blob, fileName)
-// formData.set(name, value)
-// formData.set(name, blob, fileName)
-// Let’s note two peculiarities here:
-
-// The set method removes fields with the same name, append doesn’t. 
-That’s the only difference between them.
-// To send a file, 3-argument syntax is needed, the last argument is a file name, 
-that normally is taken from user filesystem for <input type="file">.
-// Other methods are:
-
-// formData.delete(name)
-// formData.get(name)
-// formData.has(name)   -->
